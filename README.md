@@ -1,6 +1,6 @@
 # Music-Generation-using-LSTM-networks
 We tried to implement end to end learning and generate music with deep neural nets alone. We used LSTM layers that takes a sequence(in this case 100) as an input and can return either sequences (return_sequences=True) or a matrix.
-To calculate the loss for each iteration we used categorical cross entropy. 
+To calculate the loss for each iteration we used categorical cross entropy. The complete code is available in the provided Jupyter-notebook written in keras. 
 # Dataset
 MAESTRO (MIDI and Audio Edited for Synchronous TRacks and Organization) is a dataset composed of over 200 hours of virtuosic piano performances captured with fine alignment (~3 ms) between note labels and audio waveforms.
 # Music21 library
